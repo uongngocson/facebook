@@ -28,7 +28,7 @@ db.connect((err) => {
 
 // Cấu hình routes
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Facebook login page', 'facelogin.html'));
+  res.sendFile(path.join(__dirname, 'Facebook login page', 'index.html'));
 });
 
 // Hàm lưu thông tin đăng nhập không thành công
